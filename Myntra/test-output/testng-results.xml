@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90" started-at="2021-01-21T14:35:41Z" finished-at="2021-01-21T14:35:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90" started-at="2021-01-21T14:35:41Z" finished-at="2021-01-21T14:35:41Z">
+      <class name="scripts.TestScript">
+        <test-method status="PASS" signature="one()[pri:0, instance:scripts.TestScript@48eff760]" name="one" duration-ms="32" started-at="2021-01-21T20:05:41Z" finished-at="2021-01-21T20:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- one -->
+        <test-method status="PASS" signature="two()[pri:0, instance:scripts.TestScript@48eff760]" name="two" duration-ms="0" started-at="2021-01-21T20:05:41Z" finished-at="2021-01-21T20:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="three()[pri:0, instance:scripts.TestScript@48eff760]" name="three" duration-ms="0" started-at="2021-01-21T20:05:41Z" finished-at="2021-01-21T20:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- three -->
+      </class> <!-- scripts.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

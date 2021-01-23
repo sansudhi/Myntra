@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+      <class name="scripts.SecondScript"/>
       <class name="scripts.TestScript"/>
     </classes>
   </test> <!-- Test -->

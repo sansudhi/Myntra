@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="90" started-at="2021-01-21T14:35:41Z" finished-at="2021-01-21T14:35:41Z">
+  <suite name="Default suite" duration-ms="32" started-at="2021-01-22T13:05:15Z" finished-at="2021-01-22T13:05:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="90" started-at="2021-01-21T14:35:41Z" finished-at="2021-01-21T14:35:41Z">
-      <class name="scripts.TestScript">
-        <test-method status="PASS" signature="one()[pri:0, instance:scripts.TestScript@48eff760]" name="one" duration-ms="32" started-at="2021-01-21T20:05:41Z" finished-at="2021-01-21T20:05:41Z">
+    <test name="Default test" duration-ms="32" started-at="2021-01-22T13:05:15Z" finished-at="2021-01-22T13:05:15Z">
+      <class name="scripts.SecondScript">
+        <test-method status="PASS" signature="hello()[pri:0, instance:scripts.SecondScript@48eff760]" name="hello" duration-ms="16" started-at="2021-01-22T18:35:15Z" finished-at="2021-01-22T18:35:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- one -->
-        <test-method status="PASS" signature="two()[pri:0, instance:scripts.TestScript@48eff760]" name="two" duration-ms="0" started-at="2021-01-21T20:05:41Z" finished-at="2021-01-21T20:05:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- two -->
-        <test-method status="PASS" signature="three()[pri:0, instance:scripts.TestScript@48eff760]" name="three" duration-ms="0" started-at="2021-01-21T20:05:41Z" finished-at="2021-01-21T20:05:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- three -->
-      </class> <!-- scripts.TestScript -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- hello -->
+      </class> <!-- scripts.SecondScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
